@@ -72,7 +72,7 @@ def main():
             system('cls')
             read()
             ind = int(input("Chose an ID to delete from Table: "))
-            delete()
+            delete(ind)
 
         if menu == 0:
             system('cls')
